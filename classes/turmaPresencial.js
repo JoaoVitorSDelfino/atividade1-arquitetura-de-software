@@ -17,7 +17,7 @@ class TurmaPresencial extends Turma {
     }
 
     aprovado() {
-        return super.aprovado() && this.#frequencia >= 75
+        return super.aprovado() && this.#frequencia >= 80
     }
 }
 
