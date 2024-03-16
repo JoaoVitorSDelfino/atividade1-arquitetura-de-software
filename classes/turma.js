@@ -11,19 +11,21 @@ class Turma {
         return this.#codigo;
     }
 
-    set codigo(novoCodigo) {
-        this.#codigo = novoCodigo;
+    set codigo(codigo) {
+        this.#codigo = codigo;
     }
 
     get nota() {
         return this.#nota;
     }
 
-    set nota(novaNota) {
-        this.#nota = novaNota;
+    set nota(nota) {
+        this.#nota = nota;
     }
 
     aprovado() {
         return this.#nota >= 7.0
     }
 }
+
+export default Turma;
